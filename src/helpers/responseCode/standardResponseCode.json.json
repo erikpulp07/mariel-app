@@ -1,0 +1,21 @@
+{
+    "error": {
+        "badRequest": { "code": 400, "messageCode": "Bad Request" },
+        "unauthorized": { "code": 401, "messageCode": "Unauthorized" },
+        "forbidden": { "code": 403, "messageCode": "Forbidden" },
+        "notFound": { "code": 404, "messageCode": "Not Found" },
+        "methodNotAllowed": {
+            "code": 405,
+            "messageCode": "Method Not Allowed"
+        },
+        "timeout": { "code": 408, "messageCode": "Request Timeout" },
+        "tooManyRequests": { "code": 429, "messageCode": "Too Many Requests" },
+        "serverError": { "code": 500, "messageCode": "Internal Server Error" },
+        "unavailable": { "code": 503, "messageCode": "Service Unavailable" }
+    },
+    "success": {
+        "ok": { "code": 200, "messageCode": "OK" },
+        "created": { "code": 201, "messageCode": "Created" },
+        "accepted": { "code": 202, "messageCode": "Accepted" }
+    }
+}
